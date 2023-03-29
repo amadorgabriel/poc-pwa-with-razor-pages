@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vhF4lbJt95KroY0WZVwe4vRB1EMjZ5BWe+SVH491K5M6PRY8S0JApbRS9rGuuV1qifi8OQBVz/qGMMCcZAOTJA==",
+  "dgSpecHash": "WypeOgSO5eMd/Zj9WJ28Bac5HjcH2b7UAn+UNMLfaFf0+CW+JtH3G7WQ0y1f3VASKL5cgwCBPB6VWfXl15cZMA==",
   "success": true,
-  "projectFilePath": "C:\\_git\\job\\plat\\pocs\\pwa-razor\\Frontend\\Frontend.csproj",
+  "projectFilePath": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\Frontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

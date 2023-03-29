@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_git\\job\\plat\\pocs\\pwa-razor\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\_git\\job\\plat\\pocs\\pwa-razor\\Backend\\Backend.csproj",
+      "projectPath": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\_git\\job\\plat\\pocs\\pwa-razor\\Backend\\obj\\",
+      "outputPath": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

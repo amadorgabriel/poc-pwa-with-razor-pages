@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_git\\job\\plat\\pocs\\pwa-razor\\Frontend\\Frontend.csproj",
+      "projectUniqueName": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\Frontend.csproj",
       "projectName": "Frontend",
-      "projectPath": "C:\\_git\\job\\plat\\pocs\\pwa-razor\\Frontend\\Frontend.csproj",
+      "projectPath": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\Frontend.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\_git\\job\\plat\\pocs\\pwa-razor\\Frontend\\obj\\",
+      "outputPath": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
