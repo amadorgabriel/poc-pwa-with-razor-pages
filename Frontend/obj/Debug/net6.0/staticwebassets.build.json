@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zjdX1gGkOST7Mf8n3OZarBhTDTMEgwRV29yDlO63CfA=",
+  "Hash": "6uD3o2QvQ87PhU/LK/HaKMuIv6HHf8WCLP+cXmnt5LI=",
   "Source": "Frontend",
   "BasePath": "_content/Frontend",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\icon-192x192.png",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\",
+      "BasePath": "_content/Frontend",
+      "RelativePath": "icon-192x192.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon-192x192.png"
     },
     {
       "Identity": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\js\\site.js",
@@ -1069,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\manifest.json",
+      "SourceId": "Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\",
+      "BasePath": "_content/Frontend",
+      "RelativePath": "manifest.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\manifest.json"
     },
     {
       "Identity": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\serviceworker.js",

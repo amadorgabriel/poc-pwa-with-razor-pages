@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\icon-192x192.png",
+      "PackagePath": "staticwebassets\\icon-192x192.png"
+    },
+    {
       "Id": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -243,6 +247,10 @@
     {
       "Id": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
     },
     {
       "Id": "C:\\_git\\job\\plat\\pocs\\poc-pwa-with-razor-pages\\Frontend\\wwwroot\\serviceworker.js",

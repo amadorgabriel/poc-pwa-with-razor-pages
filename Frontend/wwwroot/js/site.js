@@ -12,7 +12,7 @@ if ('serviceWorker' in navigator) {
     console.log("Service Worker Registration fails")
 }
 
-async function fetchWeatherForecast() {
+async function fetchWeatherForecast() {""
     await fetch('http://localhost:5256/WeatherForecast').then(res => res.json()).then(data => console.log(data))
 }
 

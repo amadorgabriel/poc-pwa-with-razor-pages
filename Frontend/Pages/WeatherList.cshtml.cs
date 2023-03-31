@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Frontend.Pages
 {
-    public class PrivacyModel : PageModel
+    public class WeatherListModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<WeatherListModel> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public WeatherListModel(ILogger<WeatherListModel> logger)
         {
             _logger = logger;
         }
