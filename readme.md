@@ -1,25 +1,27 @@
-# Razor para frontend e funcionamento offline
-
 # Objetivo
 
-Entender e avaliar opções técnicas de integrações com serviços de assinatura digitais para a emissão de relatórios assinados automaticamente pelo sistema. Considerar técnicamente atributos como estabilidade do serviço e limitações do mesmo e também legalmente a aceitabilidade da certificação.
+Analisar a viabilidade de desenvolver um PWA com tecnologias delimitadas, sendo portanto, um web app construído com .NET 6 retornando para o client-side html baseadas em razor pages.
 
 # Justificativa
 
-O pessoal do SESI gostaria de integrar ao sistema Plat. de Auditorias serviçoes de APIs para emitir relatórios com assinatura digital integrada, eliminando assim a necessidade de inserir a assinatura manualmente por um serviço externo, eliminando também o descontrole da versão mais atual do doc emitido pelo sistema.  
-
-Hoje  usam tokens de assinatura digital pagos pela CIESP e manualmente inserem a assinatura no documento através da Adobe.  
+O Cliente gostaria de delimitar a stack da aplicação dado questões de manutenção póstuma ao desenvolvimento e entrega da solução. Para isso é necessário analisar a viabilidade de funcionalidades adicionadas ao backlog contruído para prover prover contenção de possíveis problemas futuros. 
 
 # Propostas Avaliadas
 
-1. É possível contruir um PWA para SSR?
-2. É Possível contruir um PWA com razor pages?
-3. É possível contruir um PWA com .Net Core 6 e Funcionar Offline? 
+1. Relembrando
+    1. Como funciona Web App .Net com razor?
+    2. É possível contruir um PWA com SSR?
+    3. É possível contruir um PWA com .Net Core 6 e Razor Pages?
+2. Sugestão de arquitetura e estrutura de páginas para escalabilidade.
+    1. Como componentizar na aplicação, existe um padrão?
+3. Como gerenciar os estados do razor além das ViewBags, ViewData e TempData? 
+4. É possivel assimilar a reatividade similar ao funcionamento do ReactJs?
+    1. Estados globais com redux (ou semelhantes) 
 
 # Premissas
 
-- Criamos aplicações com .Net Core 6
-- Criamos aplicações web
+- A Stack definida foi Web app .Net 6 com razor pages
+- É necessário funcionar modo offline.
 
 # Avaliação das Propostas
 
@@ -28,6 +30,5 @@ Hoje  usam tokens de assinatura digital pagos pela CIESP e manualmente inserem a
 # Resultados Obtidos
 
 *Página(s) aqui*
-
 
 <p style="text-align: center">Feito com 💜 por Gabriel Rodrigues </p>
