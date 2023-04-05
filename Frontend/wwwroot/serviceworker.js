@@ -1,6 +1,4 @@
 this.addEventListener('install', function (event) {
-    console.log('installing....');
-
     //event.waitUntil(
     //    caches.open('v1').then(function (cache) {
     //        return cache.addAll([
@@ -17,8 +15,6 @@ this.addEventListener('install', function (event) {
 });
 
 this.addEventListener('fetch', function (event) {
-    console.log('fetching')
-
     if (
         event.request.url.startsWith('chrome-extension') ||
         event.request.url.includes('extension') ||
@@ -38,8 +34,6 @@ this.addEventListener('fetch', function (event) {
 });
 
 this.addEventListener('activate', function activator(event) {
-    console.log('activate!');
-
     event.waitUntil(
         caches.keys().then(function (keys) {
             return Promise.all(keys

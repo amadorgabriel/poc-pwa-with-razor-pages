@@ -1,7 +1,4 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿// registering service worker
 
 if ('serviceWorker' in navigator) {
     navigator
@@ -12,8 +9,29 @@ if ('serviceWorker' in navigator) {
     console.log("Service Worker Registration fails")
 }
 
-async function fetchWeatherForecast() {""
-    await fetch('http://localhost:5256/WeatherForecast').then(res => res.json()).then(data => console.log(data))
+
+const baseUrl = "http://localhost:5256"
+const uri = "/WeatherForecast"
+let weather = [] 
+
+async function getWeather() {
+    await fetch(baseUrl + uri)
+        .then(response => response.json())
+        .then(data => _displayItems(data))
+        .catch(error => console.log("Erro ao buscar previsões.", error))
 }
 
-fetchWeatherForecast()
+// an underscore is used to denote private variables or functions.
+function _displayItems(data) {
+    const ul = document.querySelector(".lists")
+    ul.innerHTML = ''
+
+    data.forEach(item => {
+        let li = document.createElement("li");
+        li.innerText = `${new Date(item.date).toDateString()}, ${item.temperatureC}º Graus Celsius`
+
+        ul.appendChild(li)
+    })
+
+    weather = data
+}
