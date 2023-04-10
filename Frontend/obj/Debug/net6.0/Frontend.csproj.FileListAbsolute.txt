@@ -60,3 +60,5 @@ C:\_git\job\plat\pocs\poc-pwa-with-razor-pages\Frontend\obj\Debug\net6.0\refint\
 C:\_git\job\plat\pocs\poc-pwa-with-razor-pages\Frontend\obj\Debug\net6.0\Frontend.pdb
 C:\_git\job\plat\pocs\poc-pwa-with-razor-pages\Frontend\obj\Debug\net6.0\Frontend.genruntimeconfig.cache
 C:\_git\job\plat\pocs\poc-pwa-with-razor-pages\Frontend\obj\Debug\net6.0\ref\Frontend.dll
+C:\_git\job\plat\pocs\poc-pwa-with-razor-pages\Frontend\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\_git\job\plat\pocs\poc-pwa-with-razor-pages\Frontend\obj\Debug\net6.0\Frontend.csproj.CopyComplete

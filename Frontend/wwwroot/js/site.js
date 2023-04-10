@@ -23,7 +23,7 @@ async function getWeather() {
 
 // an underscore is used to denote private variables or functions.
 function _displayItems(data) {
-    const ul = document.querySelector(".lists")
+    const ul = document.querySelector(".lists-js")
     ul.innerHTML = ''
 
     data.forEach(item => {

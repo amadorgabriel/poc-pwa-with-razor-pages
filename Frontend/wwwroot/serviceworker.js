@@ -1,19 +1,3 @@
-this.addEventListener('install', function (event) {
-    //event.waitUntil(
-    //    caches.open('v1').then(function (cache) {
-    //        return cache.addAll([
-    //            'index.html',
-    //            'page_script.js',
-    //            'style.css',
-    //            'index.html',
-    //            '/images/set1.jpg',
-    //            '/images/set2.jpg',
-    //            '/images/set3.jpg'
-    //        ]);
-    //    })
-    //);
-});
-
 this.addEventListener('fetch', function (event) {
     if (
         event.request.url.startsWith('chrome-extension') ||
@@ -34,6 +18,20 @@ this.addEventListener('fetch', function (event) {
 });
 
 this.addEventListener('activate', function activator(event) {
+
+    // remove old cache
+    event.waitUntil(
+        (async () => {
+            const keys = await caches.keys();
+            return keys.map(async cache => {
+                if (cache !== 'v1') {
+                    console.log('Service Worker: Removing old cache: ' + cache);
+                    return await caches.delete(cache);
+                }
+            })
+        })
+    )
+
     event.waitUntil(
         caches.keys().then(function (keys) {
             return Promise.all(keys

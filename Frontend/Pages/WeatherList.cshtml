@@ -1,16 +1,34 @@
 ﻿@page
 @model WeatherListModel
+@using Frontend.ViewModels
 
 @{
-    ViewData["Title"] = "List Page";
+    ViewData["Title"] = "CSR vs SSR List";
 }
 
 <h1>@ViewData["Title"]</h1>
 
-<p>Weather List</p>
+<div style="margin-top: 20px">
+    <section>
+        <h5>Client Weather List</h5>
 
+        <!-- js will inject ul and li items here -->
+        <div class="lists-js"></div>
+    </section>
 
-<div class="lists" ></div>
+    <section style="margin-top: 20px">
+        <h5>Server Weather List</h5>
+
+        <div class="lists-chsarp">
+            <ul>
+                @foreach (var weather in Model.WeatherList)
+                {
+                    <li>@weather.Date, @weather.TemperatureC Graus Celcius</li>
+                }
+            </ul>
+        </div>
+    </section>
+</div>
 
 <script src="js/site.js" asp-append-version="true"></script>
 <script type="text/javascript">
